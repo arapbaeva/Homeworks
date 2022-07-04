@@ -1,5 +1,6 @@
 import React from 'react'
 import Message from "./Message"
+import styles from "./Message.module.css";
 
 
 const messageData = {
@@ -11,9 +12,12 @@ const messageData = {
 
 function HW1() {
     return (
+
         <div>
             <hr/>
-            homeworks 1
+
+            <div className={styles.green}><h3>Homework №1</h3></div>
+
 
             {/*should work (должно работать)*/}
 
@@ -24,11 +28,12 @@ function HW1() {
                 time={messageData.time}
             />
 
-            <hr/>
+
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeMessage/>*/}
-            <hr/>
-        </div>
+</div>
+
+
     )
 }
 

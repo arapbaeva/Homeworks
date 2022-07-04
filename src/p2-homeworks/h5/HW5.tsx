@@ -5,6 +5,9 @@ import Routes from './Routes'
 function HW5() {
     return (
         <div>
+
+            <hr/>
+
             {/*в gh-pages лучше работает HashRouter*/}
             {/*<HashRouter>*/}
 

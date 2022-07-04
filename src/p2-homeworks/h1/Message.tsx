@@ -9,6 +9,7 @@ type MessagePropsType = {
 }
 
 function Message(props: MessagePropsType) {
+
     return (
         <div>
             <div className={styles.mainWrapper}>
