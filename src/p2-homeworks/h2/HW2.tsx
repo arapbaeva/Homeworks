@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
 import style from "./Affairs.module.css";
+import AlternativeAffairs from "./AlternativeAffairs";
 
 
 // types
@@ -61,8 +62,8 @@ function HW2() {
             />
 
 
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
+
+            <AlternativeAffairs/>
         </div>
 
     )

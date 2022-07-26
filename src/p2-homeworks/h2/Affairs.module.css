@@ -1,3 +1,8 @@
+:root {
+    --light-color: #fff;
+    --coffee-color: #6F4E37;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +10,13 @@
 }
 
 .green {
-    color: #ffffff;
+    color: #CCC600;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #00ff00, 0 0 80px #00ff00, 0 0 90px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00;
+}
+
+.button {
+    margin: 5px;
+    height: 150px;
+    width: 300px;
 }
 
