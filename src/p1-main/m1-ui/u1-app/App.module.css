@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .App {
@@ -17,7 +16,6 @@
     margin: 100px;
     /*filter: blur(8px);*/
     /*-webkit-filter: blur(8px);*/
-
 }
 
 .App::before {
@@ -79,3 +77,4 @@
         grid-template-columns: 1fr;
     }
 }
+

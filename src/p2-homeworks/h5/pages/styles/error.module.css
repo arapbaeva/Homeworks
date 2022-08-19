@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error {
+    margin-top: 10px;
+    background-image: url("https://images.unsplash.com/photo-1603792907191-89e55f70099a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWlzdGFrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    color:  #6F4E37;
+    font-size: 18px;
+}
+
+.errorMessage {
+    margin: 50px;
+    color:  #6F4E37;
+}

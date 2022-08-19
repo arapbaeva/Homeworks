@@ -1,0 +1,15 @@
+.header {
+    margin-left: 20px;
+    color: #6F4E37;
+    font-weight: bold;
+
+}
+
+.button {
+    height: 20px;
+    width: 100px;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 60%;
+}
+
