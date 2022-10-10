@@ -1,0 +1,14 @@
+.spanClassName {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: #04FFF7;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.metro:hover {
+    background: #04FFF7
+}
