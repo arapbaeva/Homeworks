@@ -2,7 +2,7 @@ import {User} from "./tests/homeWorkReducer.test"
 
 
 export type ActionType = SortUpACType | SortDownACType | CheckAgeACType
-export const homeWorkReducer = (state: User[], action: ActionType): User[] => { // need to fix any
+export const homeWorkReducer = (state: User[], action: ActionType): User[] => {
     switch (action.type) {
         case 'SORT-UP': {
             return state.sort((a, b) => {

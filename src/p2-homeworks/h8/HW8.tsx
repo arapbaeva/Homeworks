@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {checkAgeAC, homeWorkReducer, sortDownAC, sortUpAC} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import './h8.css'
 
 type initialPeopleType = {
     _id: number
@@ -19,11 +20,12 @@ const initialPeople = [
 
 function HW8() {
     const [people, setPeople] = useState<initialPeopleType[]>(initialPeople) // need to fix any
-    console.log(people)
-    // need to fix any
-    const finalPeople = people.map((el)=>{
+       const finalPeople = people.map((el)=>{
         return (
-            <div key={el._id}>{el.name}{el.age}</div>
+            <div key={el._id} className='item'>
+                {el.name}
+                {el.age}
+            </div>
         )
     })
         const sortUp = () => {
